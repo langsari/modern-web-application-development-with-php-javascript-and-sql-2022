@@ -3,8 +3,8 @@
 /**
  * LangsariSoftware - A Delicious PHP Component
  *
- * @package  LangsariEngine
- * @author   Kholed Langsari <langsaree@gmail.com>
+ * @package LangsariEngine
+ * @author  Kholed Langsari <langsaree@gmail.com>
  */
 
 class Computer extends Product

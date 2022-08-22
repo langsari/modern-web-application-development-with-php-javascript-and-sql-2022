@@ -3,21 +3,24 @@
 /**
  * LangsariSoftware - A Delicious PHP Component
  *
- * @package  LangsariEngine
- * @author   Kholed Langsari <langsaree@gmail.com>
+ * @package LangsariEngine
+ * @author  Kholed Langsari <langsaree@gmail.com>
  */
 
-class Product{
+class Product
+{
     private static $nextID = 1;
     private $id;
     private  $name;
-    public function __construct($name) {
+    public function __construct($name)
+    {
         $this->name = $name;
         $this->id = self::$nextID;
         self::$nextID++;
     }
 
-    public function getId() {
+    public function getId()
+    {
         return $this->id;
     }
 
@@ -34,4 +37,5 @@ class Product{
     public function info()
     {
         return $this->id . ":" . $this->name;
-    }}
+    }
+}
